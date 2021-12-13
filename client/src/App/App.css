@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+
+*{
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gugi', cursive;
+}
+
+#topApp{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.app{
+    max-width: 600px;
+    display: block
+}
+
+.introContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.resultContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav{
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    font-size: 150%;
+    line-height: 2em;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    font-size: 150%;
+    line-height: 2em;
+    text-overflow: clip;
+}

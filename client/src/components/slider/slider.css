@@ -1,0 +1,28 @@
+div {
+    display: flex;
+    justify-content: center;
+}
+
+div.slider{
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.slider button{
+  font-size: 1em;
+  line-height: 2em;
+  border: .5px solid black;
+  border-radius: 10px;
+}
+
+button{
+  margin-left: 2em;
+  width: 10em;
+  background-color: #e7e7e7;
+  font-weight: bold
+}
+
+.slider button:hover{
+  border: .5px solid goldenrod;
+  background-color: white;
+}

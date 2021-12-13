@@ -1,0 +1,9 @@
+.topVehicles{
+  margin-top: 2em;
+}
+
+.vehicles{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
